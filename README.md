@@ -18,6 +18,12 @@
 
 <br />
 
+<div align="center">
+  <img src="assets/print.png" alt="Screenshot do Aplicativo" width="450" style="border-radius: 10px; box-shadow: 0px 4px 15px rgba(0,0,0,0.2);" />
+</div>
+
+<br />
+
 > ⚠️ **IMPORTANTE:** O motor por trás de toda a geração de voz deste aplicativo é o projeto **[edge-tts](https://github.com/rany2/edge-tts)** criado por [rany2](https://github.com/rany2). Todo o crédito da comunicação com a API da Microsoft pertence a ele.
 
 ---
