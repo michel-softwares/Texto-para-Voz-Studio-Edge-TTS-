@@ -31,8 +31,8 @@
 ## ⚙️ Funcionalidades
 
 - **Corte Automático:** Divide textos longos para não travar o limite da API. A API tem um limite de 1000 caracteres, se você digitar um texto maior que 1000 caracteres a aplicação irá dividí-lo automaticamente para garantir que todo o texto seja narrado.
-- **Unificador de Áudio:** Junta todas as partes automaticamente em um único arquivo `.mp3`. A partes dividas serão unidas ao final, se assim você quiser.
-- **Ajustes:** Pequeno menu para mudar Velocidade, Volume e Tom da narração.
+- **Unificador de Áudio:** Junta todas as partes automaticamente em um único arquivo `.mp3`. As partes dividas serão unidas ao final, se assim você quiser.
+- **Ajustes:** Pequeno menu para ajustar Velocidade, Volume e Tom da narração.
 - **Vozes:** A vozes Pt-br disponíveis são pt-BR-AntonioNeural, pt-BR-FranciscaNeural e ThalitaMultilingual.
 ---
 
