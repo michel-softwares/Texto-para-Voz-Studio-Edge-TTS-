@@ -10,10 +10,10 @@ Este projeto é uma **Interface Gráfica (GUI)** desenvolvida por **Michel Softw
 
 ## ⚙️ Funcionalidades
 
-- **Corte Automático:** Divide textos longos para não travar o limite da API.
-- **Unificador de Áudio:** Junta todas as partes automaticamente em um único arquivo `.mp3`.
-- **Ajustes:** Barras deslizantes para mudar Velocidade, Volume e Tom.
-
+- **Corte Automático:** Divide textos longos para não travar o limite da API. A API tem um limite de 1000 caracteres, se você digitar um texto maior que 1000 caracteres a aplicação irá dividí-lo automaticamente para garantir que todo o texto seja narrado.
+- **Unificador de Áudio:** Junta todas as partes automaticamente em um único arquivo `.mp3`. A partes dividas serão unidas ao final, se assim você quiser.
+- **Ajustes:** Pequeno menu para mudar Velocidade, Volume e Tom da narração.
+- **Vozes:** A vozes Pt-br disponíveis são pt-BR-AntonioNeural, pt-BR-FranciscaNeural e ThalitaMultilingual.
 ---
 
 ## 📦 Requisitos e Instalação
@@ -21,14 +21,17 @@ Este projeto é uma **Interface Gráfica (GUI)** desenvolvida por **Michel Softw
 Você precisa ter o **Python** e o **Node.js** instalados no seu computador.
 
 1. Baixe os arquivos desta pasta.
-2. Abra o terminal na pasta e instale as dependências executando:
+2. Abra o terminal na pasta e instale as bibliotecas necessárias para a interface gráfica e a geração de voz (Python):
 
-\`\`\`bash
-pip install -r requirements.txt
-npm install
-\`\`\`
+```bash
+pip install flet edge-tts
+```
 
-*(Nota: O comando `pip` acima instalará automaticamente o Flet para a interface e a biblioteca original `edge-tts` do rany2).*
+Em seguida, instale as dependências visuais para o script de inicialização do terminal (Node.js):
+
+```bash
+npm install figlet gradient-string
+```
 
 ---
 
